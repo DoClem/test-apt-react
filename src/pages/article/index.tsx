@@ -1,15 +1,16 @@
 import '../../index.css';
 import { useNavigate, useLocation } from "react-router-dom";
+import { Article } from '../home/api';
 
 
 const ArticleDetail = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { title, publishedAt, urlToImage, description, content } = location.state || {};
+  const { title, publishedAt, urlToImage, description, content }: Article = location.state || {};
 
   return (
     <div className='article-container'>
-      <button onClick={() => navigate(-1)} style={{ marginBottom: "20px" }}>
+      <button onClick={() => navigate(-1)}>
         Back
       </button>
       {title ? (

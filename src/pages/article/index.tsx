@@ -1,4 +1,4 @@
-import '../../index.css';
+import "../../index.css";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Article } from '../home/api';
 

@@ -113,7 +113,7 @@ body {
   display: inline-block;
   margin-bottom: 20px;
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color: #5585b5;
   color: #ffffff;
   border: none;
   border-radius: 20px;
@@ -123,7 +123,7 @@ body {
 }
 
 .article-container button:hover {
-  background-color: #0056b3;
+  background-color: #53a8b6;
 }
 
 .article-container h1 {
